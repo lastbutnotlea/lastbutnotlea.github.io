@@ -1,0 +1,146 @@
+body {
+	background: #ED4264;
+	background: -webkit-linear-gradient(180deg, #F7F8F8, #ACBB78);
+	background: linear-gradient(180deg, #F7F8F8, #ACBB78);
+	font-family: "Reenie Beanie", sans-serif;
+	margin: 0 30px;
+}
+
+.main-container {
+	max-width: 315px;
+	margin: 80px auto;
+	color: white;
+	background: -webkit-linear-gradient(180deg, #53898F, #203A43);
+	background: linear-gradient(180deg, #53898F, #203A43);
+	border-radius: 20px; 
+	position: relative;
+	box-shadow: 1px 2px 10px grey;
+}
+
+.flowers1 {
+	position: absolute;
+	left: -20%;
+	top: -80px;
+	width: 400px;
+		-webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+  	filter: drop-shadow(2px 2px 0 white) 
+            drop-shadow(-2px -2px 0 white)
+            drop-shadow(2px -2px 0 white)
+            drop-shadow(-2px 2px 0 white)
+}
+
+.face {
+	position: absolute;
+	width: 60px;
+	-webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+  	filter: drop-shadow(2px 2px 0 white) 
+            drop-shadow(-2px -2px 0 white)
+            drop-shadow(2px -2px 0 white)
+            drop-shadow(-2px 2px 0 white)
+}
+
+.lea1 {
+	left: -10%;
+	top: 500px;
+}
+
+.lea2 {
+	left: 3%;
+	top: 200px;
+}
+
+.lea3 {
+	left: -13%;
+	top: 230px;
+	width: 70px;
+}
+
+.lea4 {
+	left: -5%;
+	top: 320px;
+}
+
+.lea5 {
+	left: -10%;
+	bottom: 20px;
+}
+
+.lea6 {
+	left: -10%;
+	top: 150px;
+}
+
+.lukas1 {
+	right: -10%;
+	top: 600px;
+}
+
+.lukas2 {
+	right: 1%;
+	top: 170px;
+}
+
+.lukas3 {
+    right: -8%;
+    top: 255px;
+	width: 70px;
+}
+
+.lukas4 {
+    right: -5%;
+    top: 540px;
+}
+
+.lukas5 {
+	right: -10%;
+	bottom: -20px;
+}
+
+.lukas6 {
+	right: -10%;
+	top: 100px;
+}
+
+.content {
+	padding: 100px 10px 30px 10px;
+	text-align: center;
+}
+
+.leaundlukas {
+	border-radius: 50%;
+    border: 4px solid white;
+    width: 280px;
+    margin: 0 auto;
+}
+
+h1 {
+	margin: auto;
+	max-width: 190px;
+	line-height: 0.8;
+	font-size: 3rem;
+}
+
+p {
+	font-family: "Raleway", sans-serif;
+	margin: 20px auto;
+	max-width: 200px;
+}
+
+.poll {
+	margin: 0 auto;
+}
+
+/*
+.marginerlizer::before {
+  	content: "";
+  	position: absolute;
+  	inset: 0;
+	border-radius: 20px; 
+  	border: 10px solid transparent; 
+  	background: linear-gradient(45deg,red,blue) border-box; 
+  	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  	-webkit-mask-composite: xor;
+    mask-composite: exclude; 	
+}*/
